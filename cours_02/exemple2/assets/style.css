@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+:root{
+    --light-color: #fff;
+    --light-color-alt: #61B3FF;
+    --light-color-secondaire: #1b4369;
+    --font-size-title: 30px;
+    --font-size-subtitle: 20px;
+    --font-size-paragraphe: 15px;
+    --font-family: "Poppins", "sans-serif";
+    --margin-navbar: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body{
+    margin: 0px;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    background-color: #61B3FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--margin-navbar);
+}
+
+.menu > .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list-item{
+    padding: 3px;
+}
+
+.list-link:hover{
+    color: var(--light-color-secondaire);
+    text-decoration: underline;
+}
+
+.session{
+    padding: 100px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.session > .container{
+    width: 40%;
+}
+
+.homepage-img{
+    width: 80%
+}
+
+.accroche-container{
+    text-align: center;
+}
+
+.accroche{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: var(--light-color-alt);
+    padding: 12px;
+    border-radius: 25px;
+    border: 0px;
+}
+
+.lancer-quiz{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: var(--font-size-subtitle);
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.theme-container{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.theme-img{
+    width: 250px;
+}

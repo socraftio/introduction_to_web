@@ -1,0 +1,49 @@
+:root{
+    --font-size-title: 30px;
+    --font-size-subtitle: 20px;
+    --font-size-paragraphe: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+.title{
+    font-size: var(--font-size-title);
+}
+
+.subtitle{
+    margin-top: 10px;
+    font-size: var(--font-size-subtitle);
+}
+
+.paragraph{
+    font-size: var(--font-size-paragraphe);
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+    color: rgba(12, 75, 75, 0.66);
+}
+
+.overflow{
+    overflow: scroll;
+    height: 100px;
+}
+
+.columns-container{
+    /*column-count: 3;*/
+    column-width: 200px;
+}
