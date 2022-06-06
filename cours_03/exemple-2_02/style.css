@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  font-size: 16px;
+}
+
+.sous-container{
+  font-size: 2em;
+}
+
+.sous-sous-container{
+  font-size: 1.3em;
+}
